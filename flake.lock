@@ -1,0 +1,412 @@
+{
+  "nodes": {
+    "esp-idf-nix": {
+      "inputs": {
+        "nixpkgs": "nixpkgs"
+      },
+      "locked": {
+        "lastModified": 1794529721,
+        "narHash": "sha256-9sTtG+4bARoMe0lD+50O2NsxJEd8V5+N+4bOl1PmSYs=",
+        "owner": "Cbeck527",
+        "repo": "esp-idf-nix",
+        "rev": "a00f59d98fdb35d4c3accaea586f7760c968c56f",
+        "type": "github"
+      },
+      "original": {
+        "owner": "Cbeck527",
+        "repo": "esp-idf-nix",
+        "type": "github"
+      }
+    },
+    "meshtastic-firmware": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1788205115,
+        "narHash": "sha256-BECvIP2jFI1a4n2mRrEjDg4P5VjrDyQYJIqFTmnStN4=",
+        "ref": "v2.8.0.47db0e3",
+        "rev": "47db0e3020a608e06fb65cce70cd2f093021bd82",
+        "revCount": 12588,
+        "submodules": true,
+        "type": "git",
+        "url": "https://github.com/meshtastic/firmware"
+      },
+      "original": {
+        "ref": "v2.8.0.47db0e3",
+        "rev": "47db0e3020a608e06fb65cce70cd2f093021bd82",
+        "submodules": true,
+        "type": "git",
+        "url": "https://github.com/meshtastic/firmware"
+      }
+    },
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1774709303,
+        "narHash": "sha256-D3Q07BbIA2KnTcSXIqqu9P586uWxN74zNoCH3h2ESHg=",
+        "owner": "nixos",
+        "repo": "nixpkgs",
+        "rev": "8110df5ad7abf5d4c0f6fb0f8f978390e77f9685",
+        "type": "github"
+      },
+      "original": {
+        "owner": "nixos",
+        "ref": "nixos-unstable",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "root": {
+      "inputs": {
+        "esp-idf-nix": "esp-idf-nix",
+        "meshtastic-firmware": "meshtastic-firmware",
+        "nixpkgs": [
+          "esp-idf-nix",
+          "nixpkgs"
+        ],
+        "vendor-arduino-fsm": "vendor-arduino-fsm",
+        "vendor-arduino-thread": "vendor-arduino-thread",
+        "vendor-crypto": "vendor-crypto",
+        "vendor-erriez-crc32": "vendor-erriez-crc32",
+        "vendor-esp32-https-server": "vendor-esp32-https-server",
+        "vendor-fusion": "vendor-fusion",
+        "vendor-libpax": "vendor-libpax",
+        "vendor-lovyan-gfx": "vendor-lovyan-gfx",
+        "vendor-lvgl": "vendor-lvgl",
+        "vendor-meshtastic-device-ui": "vendor-meshtastic-device-ui",
+        "vendor-nonblocking-rtttl": "vendor-nonblocking-rtttl",
+        "vendor-ntpclient": "vendor-ntpclient",
+        "vendor-oled": "vendor-oled",
+        "vendor-onebutton": "vendor-onebutton",
+        "vendor-pngdec": "vendor-pngdec",
+        "vendor-radiolib": "vendor-radiolib",
+        "vendor-sensorlib": "vendor-sensorlib",
+        "vendor-tb-pubsubclient": "vendor-tb-pubsubclient",
+        "vendor-tinygpsplus": "vendor-tinygpsplus"
+      }
+    },
+    "vendor-arduino-fsm": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1627964900,
+        "narHash": "sha256-GU++A7hDHG5dZDWEP7Qbue0U1M7TySFpbTbxm9raxsY=",
+        "owner": "meshtastic",
+        "repo": "arduino-fsm",
+        "rev": "7db3702bf0cfe97b783d6c72595e3f38e0b19159",
+        "type": "github"
+      },
+      "original": {
+        "owner": "meshtastic",
+        "repo": "arduino-fsm",
+        "rev": "7db3702bf0cfe97b783d6c72595e3f38e0b19159",
+        "type": "github"
+      }
+    },
+    "vendor-arduino-thread": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1759771114,
+        "narHash": "sha256-UvTCjHBJkVC7avn4y2YyAk/sU/C6VXr7JeoyHuiu/QQ=",
+        "owner": "meshtastic",
+        "repo": "ArduinoThread",
+        "rev": "b841b0415721f1341ea41cccfb4adccfaf951567",
+        "type": "github"
+      },
+      "original": {
+        "owner": "meshtastic",
+        "repo": "ArduinoThread",
+        "rev": "b841b0415721f1341ea41cccfb4adccfaf951567",
+        "type": "github"
+      }
+    },
+    "vendor-crypto": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1783004142,
+        "narHash": "sha256-5urab9/hJ0PKsUbcW2zjo8v5gSksZ/kX1ZNqbncGodQ=",
+        "owner": "meshtastic",
+        "repo": "Crypto",
+        "rev": "591ff9a690e8168ccb7a36abde8d7783e448d395",
+        "type": "github"
+      },
+      "original": {
+        "owner": "meshtastic",
+        "repo": "Crypto",
+        "rev": "591ff9a690e8168ccb7a36abde8d7783e448d395",
+        "type": "github"
+      }
+    },
+    "vendor-erriez-crc32": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1537103215,
+        "narHash": "sha256-xYw1VC1g59UGTS4hrWRme7codG79UaNTZOln5wZy8y8=",
+        "owner": "Erriez",
+        "repo": "ErriezCRC32",
+        "rev": "0bd91795ee09a4268b9b4a0abcd1394677f419c1",
+        "type": "github"
+      },
+      "original": {
+        "owner": "Erriez",
+        "ref": "1.0.1",
+        "repo": "ErriezCRC32",
+        "type": "github"
+      }
+    },
+    "vendor-esp32-https-server": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1775327979,
+        "narHash": "sha256-i8hE1q2RxropuQyQgYXw+OLqptiTKOKnIYtCLwjthFY=",
+        "owner": "meshtastic",
+        "repo": "esp32_https_server",
+        "rev": "0c71f380390ad483ff134ad938e07f6cf1226c5b",
+        "type": "github"
+      },
+      "original": {
+        "owner": "meshtastic",
+        "repo": "esp32_https_server",
+        "rev": "0c71f380390ad483ff134ad938e07f6cf1226c5b",
+        "type": "github"
+      }
+    },
+    "vendor-fusion": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1783033974,
+        "narHash": "sha256-QlCjvyteK9aZd8L8lU437HwQ4kCQQyCoxdLohXtsRlM=",
+        "owner": "meshtastic",
+        "repo": "Fusion",
+        "rev": "936e1eb1e5ea19e8f4ed467526f91adeebb4f53c",
+        "type": "github"
+      },
+      "original": {
+        "owner": "meshtastic",
+        "repo": "Fusion",
+        "rev": "936e1eb1e5ea19e8f4ed467526f91adeebb4f53c",
+        "type": "github"
+      }
+    },
+    "vendor-libpax": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1751322463,
+        "narHash": "sha256-kJThVV0mRZrnXJfM1dX0I0v0vd5VTx8iLuCcY5E+sHE=",
+        "owner": "mverch67",
+        "repo": "libpax",
+        "rev": "6f52ee989301cdabaeef00bcbf93bff55708ce2f",
+        "type": "github"
+      },
+      "original": {
+        "owner": "mverch67",
+        "repo": "libpax",
+        "rev": "6f52ee989301cdabaeef00bcbf93bff55708ce2f",
+        "type": "github"
+      }
+    },
+    "vendor-lovyan-gfx": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1784707850,
+        "narHash": "sha256-BhpHh+vR3Nz2cJq4W1JX5NXQJ9/fYoVNfvHXTwlTlwk=",
+        "owner": "lovyan03",
+        "repo": "LovyanGFX",
+        "rev": "3f78b7058fca0fd1fc1ddb32f75a18262e01d440",
+        "type": "github"
+      },
+      "original": {
+        "owner": "lovyan03",
+        "ref": "1.2.26",
+        "repo": "LovyanGFX",
+        "type": "github"
+      }
+    },
+    "vendor-lvgl": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1748951837,
+        "narHash": "sha256-q3QGtZBusgSO+Vs6fxtUtrDiuzkACE3JtY3E+Nng+5k=",
+        "owner": "lvgl",
+        "repo": "lvgl",
+        "rev": "c033a98afddd65aaafeebea625382a94020fe4a7",
+        "type": "github"
+      },
+      "original": {
+        "owner": "lvgl",
+        "ref": "v9.3.0",
+        "repo": "lvgl",
+        "type": "github"
+      }
+    },
+    "vendor-meshtastic-device-ui": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1786751224,
+        "narHash": "sha256-oe1jpmPJQEWeVw4fp2JVPUlAfJGTdqfIxDqBR19oUks=",
+        "owner": "meshtastic",
+        "repo": "device-ui",
+        "rev": "e8a5ff337d1ead20b290307fb2159ad27fe47f86",
+        "type": "github"
+      },
+      "original": {
+        "owner": "meshtastic",
+        "repo": "device-ui",
+        "rev": "e8a5ff337d1ead20b290307fb2159ad27fe47f86",
+        "type": "github"
+      }
+    },
+    "vendor-nonblocking-rtttl": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1760734373,
+        "narHash": "sha256-QOOYRbzOI6y49Q2BkpuoaM8KHR/502z/T+8bxKTUo74=",
+        "owner": "end2endzone",
+        "repo": "NonBlockingRTTTL",
+        "rev": "ef6a91b640e1874a47f0764c8e11a147882de2a0",
+        "type": "github"
+      },
+      "original": {
+        "owner": "end2endzone",
+        "ref": "1.4.0",
+        "repo": "NonBlockingRTTTL",
+        "type": "github"
+      }
+    },
+    "vendor-ntpclient": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1650870884,
+        "narHash": "sha256-7AsaMwJz4Mfz31fsQRBLgJ8/YQIC7lqJBTNy0Nkx4Y0=",
+        "owner": "arduino-libraries",
+        "repo": "NTPClient",
+        "rev": "78d4237b3ae12d801ccf48c5f86f48ef3720d2b4",
+        "type": "github"
+      },
+      "original": {
+        "owner": "arduino-libraries",
+        "ref": "3.2.1",
+        "repo": "NTPClient",
+        "type": "github"
+      }
+    },
+    "vendor-oled": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1787562223,
+        "narHash": "sha256-6lUukXLpusaXzLEulBvrPFeG0OPkZcyHKGICxb7Q8dQ=",
+        "owner": "meshtastic",
+        "repo": "esp8266-oled-ssd1306",
+        "rev": "bb93fd40685f22e850330ea162f1dd154a4e0685",
+        "type": "github"
+      },
+      "original": {
+        "owner": "meshtastic",
+        "repo": "esp8266-oled-ssd1306",
+        "rev": "bb93fd40685f22e850330ea162f1dd154a4e0685",
+        "type": "github"
+      }
+    },
+    "vendor-onebutton": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1755277154,
+        "narHash": "sha256-SIXwiv0DwmFNA0LLHQvWj+BoVLz+19TKnXg06fiaRMs=",
+        "owner": "meshtastic",
+        "repo": "OneButton",
+        "rev": "fa352d668c53f290cfa480a5f79ad422cd828c70",
+        "type": "github"
+      },
+      "original": {
+        "owner": "meshtastic",
+        "repo": "OneButton",
+        "rev": "fa352d668c53f290cfa480a5f79ad422cd828c70",
+        "type": "github"
+      }
+    },
+    "vendor-pngdec": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1785066882,
+        "narHash": "sha256-z2AbKrBxYKBF56hyJnAK0osrk+AhPv1roO4z2JjFCxM=",
+        "owner": "mverch67",
+        "repo": "PNGdec",
+        "rev": "d88b6fe2ec8d49c2b097a529b34d1d615ca5cf1b",
+        "type": "github"
+      },
+      "original": {
+        "owner": "mverch67",
+        "repo": "PNGdec",
+        "rev": "d88b6fe2ec8d49c2b097a529b34d1d615ca5cf1b",
+        "type": "github"
+      }
+    },
+    "vendor-radiolib": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1786652473,
+        "narHash": "sha256-GO7xmQcyEpzPwvEVK9Fr/YXZy6pPULgBIKc8coon5tM=",
+        "owner": "jgromes",
+        "repo": "RadioLib",
+        "rev": "510e00cfb05bbc3c2b7b524262785454944adb6e",
+        "type": "github"
+      },
+      "original": {
+        "owner": "jgromes",
+        "repo": "RadioLib",
+        "rev": "510e00cfb05bbc3c2b7b524262785454944adb6e",
+        "type": "github"
+      }
+    },
+    "vendor-sensorlib": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1775881864,
+        "narHash": "sha256-0tKztSezaQpUp8C7LSpmIZLL3wAhx6/riQX1RtEVpPc=",
+        "owner": "lewisxhe",
+        "repo": "SensorLib",
+        "rev": "19a338eb271ef0ab6ad271a934cbfb2cd20086c6",
+        "type": "github"
+      },
+      "original": {
+        "owner": "lewisxhe",
+        "ref": "v0.4.1",
+        "repo": "SensorLib",
+        "type": "github"
+      }
+    },
+    "vendor-tb-pubsubclient": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1741150427,
+        "narHash": "sha256-G3MTkOXa2okLqJSErtUG8iI3K+GguQsOXDOPfaktfhY=",
+        "owner": "thingsboard",
+        "repo": "pubsubclient",
+        "rev": "c56ad338d1a88be71a5d6d3effb722e5b5bd6108",
+        "type": "github"
+      },
+      "original": {
+        "owner": "thingsboard",
+        "ref": "v2.12.1",
+        "repo": "pubsubclient",
+        "type": "github"
+      }
+    },
+    "vendor-tinygpsplus": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1713632584,
+        "narHash": "sha256-s+4iv5tzxyUb9B2wwxAn8baUNYxxB4bvkaInyAg+1us=",
+        "owner": "meshtastic",
+        "repo": "TinyGPSPlus",
+        "rev": "71a82db35f3b973440044c476d4bcdc673b104f4",
+        "type": "github"
+      },
+      "original": {
+        "owner": "meshtastic",
+        "repo": "TinyGPSPlus",
+        "rev": "71a82db35f3b973440044c476d4bcdc673b104f4",
+        "type": "github"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}

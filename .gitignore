@@ -1,0 +1,26 @@
+# Host-local tools and sensitive device data
+/.platformio/
+/backup/
+/legacy/.platformio/
+
+# Direct ESP-IDF generated state and device-specific output.
+/build/
+/managed_components/
+/sdkconfig
+/artifacts/
+/userPrefs.local.jsonc
+
+.DS_Store
+.*.swp
+
+# Local device/build serial captures
+log.*.txt
+
+# Historical serial captures retained for reference.
+legacy/logs/log.*.txt
+
+# Dependency sources are fetched and hash-pinned by Nix.
+/vendor/
+
+# Preserve the pre-migration checkout locally; the build uses the Nix input.
+/firmware/

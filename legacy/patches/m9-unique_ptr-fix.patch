@@ -1,0 +1,26 @@
+diff --git a/src/motion/AccelerometerThread.h b/src/motion/AccelerometerThread.h
+index e1462fdd0..63009aecc 100755
+--- a/src/motion/AccelerometerThread.h
++++ b/src/motion/AccelerometerThread.h
+@@ -150,7 +150,7 @@ class AccelerometerThread : public concurrency::OSThread
+ #endif
+ #if __has_include(<SensorQMI8658.hpp>)
+         case ScanI2C::DeviceType::QMI8658:
+-            sensor = new QMI8658Sensor(device);
++            sensor.reset(new QMI8658Sensor(device));
+             break;
+ #endif
+         default:
+diff --git a/src/motion/MagnetometerThread.h b/src/motion/MagnetometerThread.h
+index dba16bd5e..4a3d7d69a 100644
+--- a/src/motion/MagnetometerThread.h
++++ b/src/motion/MagnetometerThread.h
+@@ -77,7 +77,7 @@ class MagnetometerThread : public concurrency::OSThread
+ #endif
+ #if __has_include(<SensorQMC6309.hpp>)
+         case ScanI2C::DeviceType::QMC6309:
+-            sensor = new QMC6309Sensor(device);
++            sensor.reset(new QMC6309Sensor(device));
+             break;
+ #endif
+         default:

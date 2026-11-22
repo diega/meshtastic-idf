@@ -1,0 +1,182 @@
+{
+  "chmorgan__esp-libhelix-mp3": [
+    "https://components-file.espressif.com/components/chmorgan/esp-libhelix-mp3/1.0.3/chmorgan__esp-libhelix-mp3-v1.0.3.zip",
+    "70f14d11c2ce356ee801b9692d37c45acfeb00662239544a7416d32459cf7ca0",
+    "cbb76089dc2c5749f7b470e2e70aedc44c9da519e04eb9a67d4c7ec275229e53"
+  ],
+  "espressif__arduino-esp32": [
+    "https://components-file.espressif.com/components/espressif/arduino-esp32/3.3.11/espressif__arduino-esp32-v3.3.11.zip",
+    "5920917f91c4e99f398f0a0f35fdfb4fca33ea20874b0857241ba0fb60abae43",
+    "1aeba74639b4728ff708d6177edfb3a0011c23b4b585c829c9d5f9840f13f0ca"
+  ],
+  "espressif__cbor": [
+    "https://components-file.espressif.com/components/espressif/cbor/0.6.1~4/espressif__cbor-v0.6.1_4.zip",
+    "b2cc204109b5e53de9e2b16154b3f91f6abcf122e4f605badb681aeaabf9a642",
+    "dad9ca860963e930366510a10b422b3125a4fb27b979712ed65efcbcd742de50"
+  ],
+  "espressif__cjson": [
+    "https://components-file.espressif.com/components/espressif/cjson/1.7.19~2/espressif__cjson-v1.7.19_2.zip",
+    "2e13f18fa612d85eeec4001dee87b246beac64cf019bc28d4c4e2e1910adc7f1",
+    "e788323270d90738662d66fffa910bfe1fba019bba087f01557e70c40485b469"
+  ],
+  "espressif__dl_fft": [
+    "https://components-file.espressif.com/components/espressif/dl_fft/0.8.0/espressif__dl_fft-v0.8.0.zip",
+    "cedcd03d08a9d2884e5b01c7eb746ee9649d3d1b017f64b299de43b3914ffb0b",
+    "965be7152132b365061abf5fc5fc7b85e525f73b94a204cdda61cfe9572c0d77"
+  ],
+  "espressif__esp-dl": [
+    "https://components-file.espressif.com/components/espressif/esp-dl/3.3.13/espressif__esp-dl-v3.3.13.zip",
+    "2766f71637c72d66a7d1a6b03889635d65f0955fce4273a940b9ee540ef0f2fa",
+    "3148b2692a2943d7e35401dc10a181b6ba83515ec70ef51499ac5d2593eef3e2"
+  ],
+  "espressif__esp-dsp": [
+    "https://components-file.espressif.com/components/espressif/esp-dsp/1.8.2/espressif__esp-dsp-v1.8.2.zip",
+    "a434f98a8f70d1bd60258351c14be88949825914033d5bb67041027e8434a33a",
+    "ed9ac175b14e0414399a2b33c525579414b5bad19a2a67b12ea212def96f9a98"
+  ],
+  "espressif__esp-modbus": [
+    "https://components-file.espressif.com/components/espressif/esp-modbus/2.1.4/espressif__esp-modbus-v2.1.4.zip",
+    "bebac15b840e8c25bb4994ddd82d07bfd3b442c4c9fb57c18b9b1db84f023c97",
+    "26a64a9531b5e15a1bbdb9064f2f8715df5b150bfb821dd493174a5aa7566bf8"
+  ],
+  "espressif__esp-sr": [
+    "https://components-file.espressif.com/components/espressif/esp-sr/2.6.2/espressif__esp-sr-v2.6.2.zip",
+    "215cebbab0d4017952f8ab1e75a50a961dc7206c4ba6ec042b14597dd8c38a58",
+    "31c301aa50346158c85271b149a6c7473dfdf3edaa0958968f9cdfe06d4dcd45"
+  ],
+  "espressif__esp-zboss-lib": [
+    "https://components-file.espressif.com/components/espressif/esp-zboss-lib/1.6.4/espressif__esp-zboss-lib-v1.6.4.zip",
+    "0b59d2dc49bded9cab8e596dd493721da12395b806265c522658b8b05430394f",
+    "321883d142421f65009972408287441794250057668a11abbdfd8bec77c3309a"
+  ],
+  "espressif__esp-zigbee-lib": [
+    "https://components-file.espressif.com/components/espressif/esp-zigbee-lib/1.6.8/espressif__esp-zigbee-lib-v1.6.8.zip",
+    "c7c0381ee16857db2e86147bd3b9a845ca3936e371f7a13495a9188098f0e64a",
+    "fa0812e6743e2a7d999af9f44ccdcea17ccb1e80f98d6b2956f44687503a88fd"
+  ],
+  "espressif__esp_daylight": [
+    "https://components-file.espressif.com/components/espressif/esp_daylight/1.0.1/espressif__esp_daylight-v1.0.1.zip",
+    "d503c2b2da32a6aad003dd010ee8eb35a320d9bc4aa3046949af79ff8b92c0a2",
+    "e27629eb7e12da9e6d01c646e0e4ce6358b977b6f89d4f291a4cc1aea755af94"
+  ],
+  "espressif__esp_diag_data_store": [
+    "https://components-file.espressif.com/components/espressif/esp_diag_data_store/1.1.1/espressif__esp_diag_data_store-v1.1.1.zip",
+    "8cd1769868f91fa3d21a54f463a82553c5cd9b33c3963cc8f31da43bec4fe354",
+    "1967397300fbea608f688f71365b298a613eed48b694ee236cc60e6d06fda086"
+  ],
+  "espressif__esp_diagnostics": [
+    "https://components-file.espressif.com/components/espressif/esp_diagnostics/1.3.4/espressif__esp_diagnostics-v1.3.4.zip",
+    "1973f9ba0d71bb34216286a45e8f9cf187e9e1dabcfa34cb178806a9a0f8ba2f",
+    "f91cd5bd3d6a9be134d7196bdecd5336825ab3fa37eab482647b07a6dabaa842"
+  ],
+  "espressif__esp_insights": [
+    "https://components-file.espressif.com/components/espressif/esp_insights/1.3.4/espressif__esp_insights-v1.3.4.zip",
+    "cae264c608da588acc11f60dad82ac12ca982b8b6c87053aab218cf3d12b7401",
+    "102d0a141d5123a5ebb827832f73fcc4135aefed6c38fca98e7b655bd18735c5"
+  ],
+  "espressif__esp_modem": [
+    "https://components-file.espressif.com/components/espressif/esp_modem/2.1.0/espressif__esp_modem-v2.1.0.zip",
+    "f247a6a15e89e7e1337e594564ee45381daee526cb24333710ac0fa05a4c60d6",
+    "06abed971065e9cb88039e011fd85ec1412c7416d3a3d84541a7a432e8d3f94d"
+  ],
+  "espressif__esp_new_jpeg": [
+    "https://components-file.espressif.com/components/espressif/esp_new_jpeg/1.0.2/espressif__esp_new_jpeg-v1.0.2.zip",
+    "8e2e3b728db2b21bdeb1d406a3e9eb8c63a23b2ea412c170f5ee765f5e03cacb",
+    "e1e7e6991193c41ed6c9fc386702aa7821433319e7aa9c3147cd3236310cd69c"
+  ],
+  "espressif__esp_rainmaker": [
+    "https://components-file.espressif.com/components/espressif/esp_rainmaker/2.2.1/espressif__esp_rainmaker-v2.2.1.zip",
+    "7d1e6e308a6da5df2d3d8aab4f76d801415dde88b48f051c074d3a37d06e3377",
+    "293028333e8ae739aaa86575a31f1fb85e51b3ae23c9b223316776cf0a0801b1"
+  ],
+  "espressif__esp_schedule": [
+    "https://components-file.espressif.com/components/espressif/esp_schedule/1.3.3/espressif__esp_schedule-v1.3.3.zip",
+    "aa1bd2c6a94d05a58b9c50acf81f4429bfa2a21b70657b46444986c511961257",
+    "52d305300abcee86034c309eb200feb2dfbc95fcbfc5b7b9dcd137763a995dbf"
+  ],
+  "espressif__esp_secure_cert_mgr": [
+    "https://components-file.espressif.com/components/espressif/esp_secure_cert_mgr/2.9.3/espressif__esp_secure_cert_mgr-v2.9.3.zip",
+    "27c404f0a1b170aadcac7b42f967dc8cfeca74b12481ae157e4352ae3cec43a5",
+    "0b83e150f48d6839f0a0a8753850be55a51cc298cfca7658f21d355d5f41dd67"
+  ],
+  "espressif__jsmn": [
+    "https://components-file.espressif.com/components/espressif/jsmn/1.2.0/espressif__jsmn-v1.2.0.zip",
+    "8dd3fca531949d199370c2ca1bde2987d2e65d59ef753edb26bf5d2b371077e4",
+    "9b2f6ba1e0fdac1a25e8f1b5a03bfbc8069b43980c62bba225d521ee6cefc6d0"
+  ],
+  "espressif__json_generator": [
+    "https://components-file.espressif.com/components/espressif/json_generator/2.1.0/espressif__json_generator-v2.1.0.zip",
+    "a7d9ae8464f98d6c34b1ed46ba47baa6e05c4e05f99b9aa7003bedeef8f67ac2",
+    "7433f3e206d8ed81dc8335b77710a5186f36c9e8c8b5375b277d6f2b9b430496"
+  ],
+  "espressif__json_parser": [
+    "https://components-file.espressif.com/components/espressif/json_parser/2.0.0/espressif__json_parser-v2.0.0.zip",
+    "61305f917529462d8da645b767c3524840f1576fe64191f4675e1cf13d1e784e",
+    "7a764bd9a057cacc93ccabefeca4cdc6ae558790582af9a639acdd015d5103ae"
+  ],
+  "espressif__libsodium": [
+    "https://components-file.espressif.com/components/espressif/libsodium/1.0.22~1/espressif__libsodium-v1.0.22_1.zip",
+    "7f037ce4fa81a09f0f7e93688d172a152c9a693a1f8013a7adfd855c6726ff2d",
+    "d4066b373fc6d4c5196db42aeea7faef4ac7f3080af96c2b74e2476c08b78dc1"
+  ],
+  "espressif__mdns": [
+    "https://components-file.espressif.com/components/espressif/mdns/1.15.1/espressif__mdns-v1.15.1.zip",
+    "16196ecebaafb421d8ffb2368b16a4fccdc68ec0792fea7ff556f21df9f65692",
+    "2fa43caa78cc170842255bc7bf71f306bc815cae12e9496bfb12372423019ac7"
+  ],
+  "espressif__network_provisioning": [
+    "https://components-file.espressif.com/components/espressif/network_provisioning/1.0.2/espressif__network_provisioning-v1.0.2.zip",
+    "60a0c88f5c5fb10e229344fadf435f35029393b8838ede275c4e8d5fc2668752",
+    "ef2e10182fd1861e68b821491916327c25416ca7ae70e5a6e43313dbc71fe993"
+  ],
+  "espressif__qrcode": [
+    "https://components-file.espressif.com/components/espressif/qrcode/0.1.0~2/espressif__qrcode-v0.1.0_2.zip",
+    "e2c63ba6be178c2c6929aaf356709fc4cdbaeb4a8677b14d2e3f14a6623d9079",
+    "3b493771bc5d6ad30cbf87c25bf784aada8a08c941504355b55d6b75518ed7bc"
+  ],
+  "espressif__rmaker_cmd_resp": [
+    "https://components-file.espressif.com/components/espressif/rmaker_cmd_resp/1.0.0/espressif__rmaker_cmd_resp-v1.0.0.zip",
+    "24502dbcfe74f582070a97fc66d2cd2175f0a55c5572a97aaf19329bc05c6e71",
+    "343ccd5d3a2789ecb241f9de5ac7f67fc39db126c1af139116a20c9a6e3669f3"
+  ],
+  "espressif__rmaker_common": [
+    "https://components-file.espressif.com/components/espressif/rmaker_common/1.13.0/espressif__rmaker_common-v1.13.0.zip",
+    "01aabbc9ac8ea92ce63ccc8a381e922c0168f757e1445f64113a4dbe2da92cb8",
+    "233e1dba9050aa1977c5b3608d72281a85edc48d732555958c5c972c0cd7b0d1"
+  ],
+  "espressif__rmaker_common_events": [
+    "https://components-file.espressif.com/components/espressif/rmaker_common_events/1.2.0/espressif__rmaker_common_events-v1.2.0.zip",
+    "5db834e30d3197ba879136ff2206a0e1cd728180b5d98f9a82792886ec9b6cf1",
+    "3cd947e1e97c3c391087f0f82167c830dd20dd852e36db3c918f9bbff484b2ff"
+  ],
+  "espressif__rmaker_console": [
+    "https://components-file.espressif.com/components/espressif/rmaker_console/1.2.0/espressif__rmaker_console-v1.2.0.zip",
+    "32b6d66d853e74731d744b78e22a73c01d3e9b24109afe41a449cd592f60bd98",
+    "17f09e3ad978e0637c3d3cddb65937a5e88b9d2f1545bdb893539d540273f1e0"
+  ],
+  "espressif__rmaker_system_ctrl": [
+    "https://components-file.espressif.com/components/espressif/rmaker_system_ctrl/1.0.0/espressif__rmaker_system_ctrl-v1.0.0.zip",
+    "3b0ad5e5f971b5b68430c45f6d9bded522687f58fe418160158ef5225250e8dd",
+    "b4208fbc7e99b30fb1d272cbd30e578327079a6495499d12fb466b6c2fc0d899"
+  ],
+  "espressif__rmaker_time_sync": [
+    "https://components-file.espressif.com/components/espressif/rmaker_time_sync/1.0.2/espressif__rmaker_time_sync-v1.0.2.zip",
+    "923360759a4a95317a254322e0d1b363e2f403fc0713e3a9a36338021c707fd5",
+    "5797d2fcd903cad6e9142981e1d0602d7b5efa2c9197a72da8d2e05be7ef568b"
+  ],
+  "espressif__rmaker_work_queue": [
+    "https://components-file.espressif.com/components/espressif/rmaker_work_queue/1.1.0/espressif__rmaker_work_queue-v1.1.0.zip",
+    "c44eb04be324cb9b0f4efa6f79590abd70787c166d6786ba0ba9a991e7b4ebfe",
+    "26f9da268e535e7f01418558fbaa495b03c22e1f7181c57f67b2d4d4492c67d2"
+  ],
+  "joltwallet__littlefs": [
+    "https://components-file.espressif.com/components/joltwallet/littlefs/1.23.1/joltwallet__littlefs-v1.23.1.zip",
+    "771a8bf86b939fd0ffe25430b9766e0c9a40a75176dfdb50e47a6fc6c33870ea",
+    "e1a0f4a6adf821759cb34703a91107bbdce5d7ff6f4728f40ab012bb87842974"
+  ],
+  "livekit__nanopb": [
+    "https://components-file.espressif.com/components/livekit/nanopb/0.4.9~2/livekit__nanopb-v0.4.9_2.zip",
+    "ab79b95dcfbcab975d90968df3e1f85525cd2be7b7fe983169666e742f6331ab",
+    "6a1682f4de30d155d0ec14552e482875f295df75af1740f687fd88198cd19f48"
+  ]
+}

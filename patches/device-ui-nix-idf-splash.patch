@@ -1,0 +1,7 @@
+diff --git a/generated/ui_320x240/screens.c b/generated/ui_320x240/screens.c
+index 7a2e2fe..af84fd2 100644
+--- a/generated/ui_320x240/screens.c
++++ b/generated/ui_320x240/screens.c
+@@ -115 +115 @@
+-            lv_label_set_text_static(obj, "www.meshtastic.org");
++            lv_label_set_text_static(obj, "Nix + ESP-IDF");
